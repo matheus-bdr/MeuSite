@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(90deg, #fcfcfc 0%, #9b9494 100%);
+    padding: 0;
+  }
+  
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-family: Andale Mono, monospace;
+    font-size: 130%;
+}
+h1{
+    font-family: Jazz LET, fantasy;
+}
+
+h3{
+    font-family: Jazz LET, fantasy;
+}
