@@ -20,7 +20,12 @@ h1 {
 .h3 {
     font-family: Jazz LET, fantasy;
 }
-
+.cardhover:hover{
+  transition:0.7s;
+  color: #fcfcfc;
+  background-color: black;
+}
+/* linha do tempo */
 .apresentacaoLinhaDoTempo {
     position: relative;
     margin: 50px auto;
@@ -127,3 +132,11 @@ h1 {
     background: var(--cor-terciaria);
     border-radius: 18px;
   }
+  /* Linha do tempo  */
+ #menu{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  
+ }

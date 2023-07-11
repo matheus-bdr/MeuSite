@@ -16,372 +16,514 @@
 </head>
 
 <body>
-    <header>
-        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-            <div class="bg-dark p-4 text-white">
-                <h5 class="text-body-emphasis h4">Matheus bdr</h5>
-                <span class="text-body-secondary">Seja bem vindo ao meu site</span>
-            </div>
-        </div>
-        <nav class="navbar navbar-dark bg-dark">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
+    <header id="menu">
+        <nav id="navbar-example2" class="navbar navbar-dark bg-dark px-3 p-5">
+            <a class="navbar-brand" href="#">Matheus Da Cruz</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">História</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading3">Ferramentas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading4">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading5">Contato</a>
+                </li>
+
+            </ul>
         </nav>
     </header>
-    <main>
 
-        <!-- titulo e apresentação -->
-        <section>
-            <div class="text-center mt-5">
-                <img src="image/matheus.jpg" class="rounded-circle" height="100px" width="100px" alt="...">
-            </div>
-            <div class="container-fluid">
-                <h1 class="text-center mt-1">
-                    Matheus Da Cruz Santos
-                </h1>
-                <h2 class="text-center text-muted">
-                    Analista de dados e Desenvolvedor Web Full-stack
-                </h2>
-            </div>
-        </section>
+    <div class="container">
+        <div class="row p-5 text-center">
+            <h1>Matheus da cruz santos</h1>
+        </div>
+    </div>
 
-        <!-- sobre -->
-        <section>
-            <div class="container mt-5">
-                <h1>Sobre mim</h1>
-                <div class="row">
-                    <div class="col-6">
-                        <p class="p1">
-                            Meu nome é <b>Matheus Da Cruz Santos</b>, sou <b>Analista de dados</b> e curso <b>Ciência da
-                                Computação</b>
-                            na <b><a href="https://ucb.catolica.edu.br/portal/">Universidade Católica de
-                                    Brasília.</a></b> Meus pontos fortes são
-                            facilidade em aprender, pro atividade, comunicação efetiva, organização e
-                            liderança.
-                            <br>
-                            <br>
-                            Realizei o Bootcamp de Análise de Dados na empresa <b><a
-                                    href="https://soulon.soulcodeacademy.org/cursosgratis">SoulCode Academy</a></b>,
-                            durou cerca de 3
-                            meses, se mantendo todos os dias das 8 as 18:00. no curso desenvolvi habilidades
-                            em Python, Pandas, Pyspark, Bigquery, Plataformas de Dashboard e Marketing.
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+        tabindex="0">
+        <main>
 
-
-                    </div>
+            <!-- titulo e apresentação -->
+            <section id="scrollspyHeading1" class="mt-5">
+                <div class="text-center mt-5">
+                    <img src="image/matheus.jpg" class="rounded-circle" height="100px" width="100px" alt="...">
                 </div>
-
-            </div>
-
-        </section>
-        <!-- história -->
-        <section>
-            <div class="container">
-                <h1 class="mt-5 text-center">História</h1>
-            </div>
-            <section class="apresentacaoLinhaDoTempo">
-                <ul>
-
-                    <li>
-                        <div class="conteudo">
-                            <h3>Primeiro Emprego</h3>
-                            <p>
-                                Meu primeiro Emprego, foi em uma loja chamada <i>"Cute Case"</i>, mas não foi possivel
-                                ficar muito tempo.
-                            </p>
-                        </div>
-                        <div class="tempo">
-                            <h4>2021</h4>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="conteudo">
-                            <h3>Mk Academy</h3>
-                            <p>
-                                Na <i> "Mk Academy"</i> desenvolvi o papel de promotor de vendas, mas também auxiliava
-                                no suporte ao usuário e fazia o controle do caixa.
-
-                            </p>
-                        </div>
-                        <div class="tempo">
-                            <h4>2021</h4>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="conteudo">
-                            <h3>Início dos estudos</h3>
-                            <p>
-                                Pedi para me retirar da empresa para poder ter o meu crescimento pessoal, então eu
-                                entrei na <i>Universidade Católica De Brasília</i> e embarquei no mundo da tecnologia.
-                            </p>
-                        </div>
-                        <div class="tempo">
-                            <h4>2021/2</h4>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="conteudo">
-                            <h3>Bolo no pote</h3>
-                            <p>
-                                Para Poder pagar a mensalidade vendi doces na Uniersidade, lá desenvolvi habilidades
-                                comunicativas que posteriormente irãi me auxiiar
-                            </p>
-                        </div>
-                        <div class="tempo">
-                            <h4>2022/1</h4>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="conteudo">
-                            <h3>Estágio (Raro)</h3>
-                            <p>
-                                Realizei um Estágio de curto tempo como Social Media na empresa Raro.
-                            </p>
-                        </div>
-                        <div class="tempo">
-                            <h4>2022/2</h4>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="conteudo">
-                            <h3>BootCamp SoulCode</h3>
-                            <p>
-                                Realizei o Bootcamp de Análise de Dados na empresa SoulCode, durou cerca de 3 meses, se
-                                mantendo todos os dias das 8 as 18:00. no curso desenvolvi habilidades em Python,
-                                Pandas, Pyspark, Bigquery, Plataformas de Dashboard e Marketing.
-                            </p>
-                        </div>
-                        <div class="tempo">
-                            <h4>2023</h4>
-                        </div>
-                    </li>
-
-                    <div style="clear: both"></div>
-                </ul>
+                <div class="container-fluid">
+                    <h1 class="text-center mt-1">
+                        Matheus Da Cruz Santos
+                    </h1>
+                    <h2 class="text-center text-muted">
+                        Analista de dados e Desenvolvedor Web Full-stack
+                    </h2>
+                </div>
             </section>
-        </section>
 
-        <!-- tecnologias -->
-        <section>
-            <div class="container">
-                <h1 class="mt-5">Ferramentas</h1>
-                <div class="row justify-content-around">
-                    <div class="col">
-                        <div class="card shadow-lg p-3 mb-5 bg-body rounded " data-mdb-animation-start="onHover"
-                            style="width: 15rem;">
-                            <img src="image/C.png" class="card-img-top" alt="image/i1.jpg">
-                            <div class="card-body">
-                                <p class="card-text">Desenvolvimento em C++</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem;">
-                            <img src="image/java.png" class="card-img-top" alt="image/i1.jpg">
-                            <div class="card-body">
-                                <p class="card-text">Desenvolvimento em Java</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem;">
-                            <img src="image/python.png" class="card-img-top" alt="image/i1.jpg">
-                            <div class="card-body">
-                                <p class="card-text">Desenvolvimento em Python</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem;">
-                            <img src="image/grafic.png" class="card-img-top" alt="image/i1.jpg">
-                            <div class="card-body">
-                                <p class="card-text">Data Visualisation</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem;">
-                            <img src="image/excel.png" class="card-img-top" alt="image/i1.jpg">
-                            <div class="card-body">
-                                <p class="card-text">Dominio em planilias</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem;">
-                            <img src="image/python.png" class="card-img-top" alt="image/i1.jpg">
-                            <div class="card-body">
-                                <p class="card-text">Analises em Python</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem;">
-                            <img src="image/word.png" class="card-img-top" alt="image/i1.jpg">
-                            <div class="card-body">
-                                <p class="card-text">Word</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem;">
-                            <img src="image/html-5.png" class="card-img-top" alt="image/i1.jpg">
-                            <div class="card-body">
-                                <p class="card-text">Html</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem;">
-                            <img src="image/css-3.png" class="card-img-top" alt="image/i1.jpg">
-                            <div class="card-body">
-                                <p class="card-text">css</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 15rem;">
-                            <img src="image/bootstrap.png" class="card-img-top" alt="image/i1.jpg">
-                            <div class="card-body">
-                                <p class="card-text">Bootstrap</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- sobre -->
+            <section>
+                <div class="container mt-5">
+                    <h1>Sobre mim</h1>
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="p1">
+                                Meu nome é <b>Matheus Da Cruz Santos</b>, sou <b>Analista de dados</b> e curso
+                                <b>Ciência da
+                                    Computação</b>
+                                na <b><a href="https://ucb.catolica.edu.br/portal/">Universidade Católica de
+                                        Brasília.</a></b> Meus pontos fortes são
+                                facilidade em aprender, pro atividade, comunicação efetiva, organização e
+                                liderança.
+                                <br>
+                                <br>
+                                Realizei o Bootcamp de Análise de Dados na empresa <b><a
+                                        href="https://soulon.soulcodeacademy.org/cursosgratis">SoulCode Academy</a></b>,
+                                durou cerca de 3
+                                meses, se mantendo todos os dias das 8 as 18:00. no curso desenvolvi habilidades
+                                em Python, Pandas, Pyspark, Bigquery, Plataformas de Dashboard e Marketing.
 
 
-            </div>
-
-        </section>
-
-        <!-- Projetos -->
-        <section>
-
-            <div class="container">
-                <h1 class="mt-5">Projetos</h1>
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row justify-content-around p-5">
-
-                                <div class="col">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="image/dentuquinhos.png" class="card-img-top" alt="image/i1.jpg">
-                                        <div class="card-body">
-                                            <p class="card-text">Dentuquinhos</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="image/soulcodeGran.jpg" class="card-img-top" alt="image/i1.jpg">
-                                        <div class="card-body">
-                                            <p class="card-text">Soulcode + Gran</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="image/i2.jpg" class="card-img-top" alt="image/i1.jpg">
-                                        <div class="card-body">
-                                            <p class="card-text">Middle Bedas Bank</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                        <div class="carousel-item">
-
-                            <div class="row justify-content-around p-5">
-
-                                <div class="col">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="image/i1.jpg" class="card-img-top" alt="image/i1.jpg">
-                                        <div class="card-body">
-                                            <p class="card-text">1</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="image/i2.jpg" class="card-img-top" alt="image/i1.jpg">
-                                        <div class="card-body">
-                                            <p class="card-text">1</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="image/i2.jpg" class="card-img-top" alt="image/i1.jpg">
-                                        <div class="card-body">
-                                            <p class="card-text">1</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-
-                            <div class="row justify-content-around p-5">
-
-                                <div class="col">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="image/i1.jpg" class="card-img-top" alt="image/i1.jpg">
-                                        <div class="card-body">
-                                            <p class="card-text">1</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="image/i2.jpg" class="card-img-top" alt="image/i1.jpg">
-                                        <div class="card-body">
-                                            <p class="card-text">1</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="image/i2.jpg" class="card-img-top" alt="image/i1.jpg">
-                                        <div class="card-body">
-                                            <p class="card-text">1</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
                         </div>
                     </div>
 
                 </div>
 
-            </div>
-        </section>
+            </section>
+            <!-- história -->
+            <section id="scrollspyHeading2">
+                <div class="container">
+                    <h1 class="mt-5 text-center">História</h1>
+                </div>
+                <section class="apresentacaoLinhaDoTempo">
+                    <ul>
+
+                        <li>
+                            <div class="conteudo">
+                                <h3>Primeiro Emprego</h3>
+                                <p>
+                                    Meu primeiro Emprego, foi em uma loja chamada <i>"Cute Case"</i>, mas não foi
+                                    possivel
+                                    ficar muito tempo.
+                                </p>
+                            </div>
+                            <div class="tempo">
+                                <h4>2021</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="conteudo">
+                                <h3>Mk Academy</h3>
+                                <p>
+                                    Na <i> "Mk Academy"</i> desenvolvi o papel de promotor de vendas, mas também
+                                    auxiliava
+                                    no suporte ao usuário e fazia o controle do caixa.
+
+                                </p>
+                            </div>
+                            <div class="tempo">
+                                <h4>2021</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="conteudo">
+                                <h3>Início dos estudos</h3>
+                                <p>
+                                    Pedi para me retirar da empresa para poder ter o meu crescimento pessoal, então eu
+                                    entrei na <i>Universidade Católica De Brasília</i> e embarquei no mundo da
+                                    tecnologia.
+                                </p>
+                            </div>
+                            <div class="tempo">
+                                <h4>2021/2</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="conteudo">
+                                <h3>Bolo no pote</h3>
+                                <p>
+                                    Para Poder pagar a mensalidade vendi doces na Uniersidade, lá desenvolvi habilidades
+                                    comunicativas que posteriormente irãi me auxiiar
+                                </p>
+                            </div>
+                            <div class="tempo">
+                                <h4>2022/1</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="conteudo">
+                                <h3>Estágio (Raro)</h3>
+                                <p>
+                                    Realizei um Estágio de curto tempo como Social Media na empresa Raro.
+                                </p>
+                            </div>
+                            <div class="tempo">
+                                <h4>2022/2</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="conteudo">
+                                <h3>BootCamp SoulCode</h3>
+                                <p>
+                                    Realizei o Bootcamp de Análise de Dados na empresa SoulCode, durou cerca de 3 meses,
+                                    se
+                                    mantendo todos os dias das 8 as 18:00. no curso desenvolvi habilidades em Python,
+                                    Pandas, Pyspark, Bigquery, Plataformas de Dashboard e Marketing.
+                                </p>
+                            </div>
+                            <div class="tempo">
+                                <h4>2023</h4>
+                            </div>
+                        </li>
+
+                        <div style="clear: both"></div>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- tecnologias -->
+            <section id="scrollspyHeading3">
+                <div class="container">
+                    <h1 class="mt-5">Ferramentas</h1>
+                    <div class="row justify-content-around">
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 rounded cardhover" data-mdb-animation-start="onHover"
+                                style="width: 15rem;">
+                                <img src="image/C.png" class="card-img-top" alt="image/i1.jpg">
+                                <div class="card-body">
+                                    <p class="card-text">Desenvolvimento em C++</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/java.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Desenvolvimento em Java</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/python.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Desenvolvimento em Python</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/Destination-logo_PowerBI.svg" class="card-img-top" alt="image/i1.jpg"
+                                    height="250px" width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Data Visualisation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/excel.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Dominio em planilias</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/python.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Analises em Python</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/word.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Word</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/html-5.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Html</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/css-3.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">css</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/bootstrap.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Bootstrap</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/python.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Pyspark</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/python.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Pandas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/gcppp.png" class="card-img-top img-fluid" alt="image/i1.jpg"
+                                    height="250px" width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Gcp</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/myysql.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Mysql</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/js-removebg-preview.png" class="card-img-top" alt="image/i1.jpg"
+                                    height="250px" width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">js</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-lg p-3 mb-5 cardhover rounded" style="width: 15rem; height: 19rem;">
+                                <img src="image/node.png" class="card-img-top" alt="image/i1.jpg" height="250px"
+                                    width="250px">
+                                <div class="card-body">
+                                    <p class="card-text">Node.js</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
+                </div>
+
+            </section>
+
+            <!-- Projetos -->
+            <section id="scrollspyHeading4">
+
+                <div class="container">
+                    <h1 class="mt-5">Projetos</h1>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row justify-content-around p-5">
+
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="image/dentuquinhos.jpeg" class="card-img-top" alt="image/i1.jpg"
+                                                height="200px" width="20px">
+                                            <div class="card-body">
+                                                <p class="card-text">Dentuquinhos</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="image/soulcode.jpg" class="card-img-top" alt="image/i1.jpg"
+                                                height="200px" width="250px">
+                                            <div class="card-body">
+                                                <p class="card-text">Soulcode + Gran</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="image/bancomeiobedas.jpeg" class="card-img-top" alt="image/i1.jpg"
+                                                height="200px" width="250px">
+                                            <div class="card-body">
+                                                <p class="card-text">Middle Bedas Bank</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+
+                                <div class="row justify-content-around p-5">
+
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="image/dentuquinhos.jpeg" class="card-img-top" alt="image/i1.jpg"
+                                                height="200px" width="20px">
+                                            <div class="card-body">
+                                                <p class="card-text">Dentuquinhos</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="image/soulcode.jpg" class="card-img-top" alt="image/i1.jpg"
+                                                height="200px" width="250px">
+                                            <div class="card-body">
+                                                <p class="card-text">Soulcode + Gran</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="image/bancomeiobedas.jpeg" class="card-img-top" alt="image/i1.jpg"
+                                                height="200px" width="250px">
+                                            <div class="card-body">
+                                                <p class="card-text">Middle Bedas Bank</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+
+                                <div class="row justify-content-around p-5">
+
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="image/dentuquinhos.jpeg" class="card-img-top" alt="image/i1.jpg"
+                                                height="200px" width="20px">
+                                            <div class="card-body">
+                                                <p class="card-text">Dentuquinhos</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="image/soulcode.jpg" class="card-img-top" alt="image/i1.jpg"
+                                                height="200px" width="250px">
+                                            <div class="card-body">
+                                                <p class="card-text">Soulcode + Gran</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="image/bancomeiobedas.jpeg" class="card-img-top" alt="image/i1.jpg"
+                                                height="200px" width="250px">
+                                            <div class="card-body">
+                                                <p class="card-text">Middle Bedas Bank</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+    </div>
     </main>
-    <footer>
-        <!-- place footer here -->
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
+    <footer id="scrollspyHeading5">
+        <!-- Footer -->
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!-- Section: Social media -->
+                <section class="mb-4">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-        </script>
+                    <!-- Zap -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://chat.whatsapp.com/Gm67RjoZ1LA0kFGpKaWEUM" role="button"><img height="40px"
+                            width="40px" src="image/whatsapp.png" alt=""></a>
+
+                    <!-- gmail -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCKCBjvBLshQNHkCkWsLNXwBrxSnChDkRXSNZZlkDCvnXFztbqKbSjLFmqgwFfKKcdcbCgdV" role="button"><img height="40px"
+                            width="40px" src="image/gmail.png" alt=""></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><img height="40px"
+                            width="40px" src="image/instagram (1).png" alt=""></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/matheuss-bdr/" role="button"><img height="40px"
+                            width="40px" src="image/linkedin.png" alt=""></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/matheus-bdr" role="button"><img height="40px"
+                            width="40px" src="image/github (1).png" alt=""></a>
+                </section>
+                <!-- Section: Social media -->
+
+
+
+                <!-- Section: Text -->
+                <section class="mb-4">
+                    <p>
+                        É um prazer te ter aqui, espero que volte novamente! <br> Me siga também nas redes sociais ou
+                        entre em contato comigo!
+                    </p>
+                </section>
+                <!-- Section: Text -->
+
+            </div>
+
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+            </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+            </script>
 </body>
 
 </html>
