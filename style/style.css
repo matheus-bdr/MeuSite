@@ -135,6 +135,9 @@ h1 {
     background: var(--cor-terciaria);
     border-radius: 18px;
   }
+  .h1historia{
+    color:black;
+  }
   /* Linha do tempo  */
  #menu{
   position: fixed;
@@ -143,4 +146,28 @@ h1 {
   width: 100%;
   
  }
- 
+ @media(max-width:600px){
+  .apresentacaoLinhaDoTempo{
+    display: none;
+    
+  }
+  .conteudo{
+    display: none;
+  }
+  .h1historia{
+    display: none;
+  }
+ }
+ .divmedia{}
+ .divmedia2{}
+ .h1ferramentas{}
+ @media(max-width:540px){
+  .divmedia{ 
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+   .divmedia2 {
+    margin: auto;
+   }
+ }
