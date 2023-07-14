@@ -1,6 +1,15 @@
 body {
-    background: linear-gradient(90deg,  #F2F2F2 0%, #FCCED9 100%);
+    background: linear-gradient(90deg,  #14282F 0%, #07151A 100%);
     padding: 0;
+}
+.corForte{
+    color: #E5D414;
+}
+.corForte2{
+    color: #0396A6;
+}
+.bgForte{
+  background-color: #0396A6;
 }
 .matheusDaCruz{
   Font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
@@ -8,34 +17,29 @@ body {
 .matheusDaCruz:hover{
   font-size: 40px;
   transition: 0.7s;
-}
-.corForte{
-    color: #1f2c73;
-}
-.bgForte{
-  background-color: #1f2c73;
+  color: #0396A6;
 }
 .corFraca{
-    color: #30242b;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .bgHeader{
-  background-color: #b88d97;
-  color: black;
+  background-color: black;
+  color: white;
   text-decoration: none;
 }
 .bgFooter{
-  background-color: #b88d97;
-  color: black;
+  background-color: #2e292a;
+  color: white;
   text-decoration: none;
 }
 .bgFooter2{
-  background-color: #2e292a;
+  background-color: black;
   color: white;
   text-decoration: none;
 }

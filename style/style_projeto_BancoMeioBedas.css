@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(90deg,  #F2F2F2 0%, #FCCED9 100%);
+    background: linear-gradient(90deg,  #F2F2F2 0%, #B9D9C0 100%);
     padding: 0;
 }
 .matheusDaCruz{
@@ -10,10 +10,11 @@ body {
   transition: 0.7s;
 }
 .corForte{
-    color: #1f2c73;
+    color: #197327;
 }
 .bgForte{
-  background-color: #1f2c73;
+
+  background-color: #197327;
 }
 .corFraca{
     color: #30242b;
@@ -25,13 +26,13 @@ a {
 }
 
 .bgHeader{
-  background-color: #b88d97;
-  color: black;
+  background-color: #2D3B40;
+  color: white;
   text-decoration: none;
 }
 .bgFooter{
-  background-color: #b88d97;
-  color: black;
+  background-color: #2D3B40;
+  color: white;
   text-decoration: none;
 }
 .bgFooter2{

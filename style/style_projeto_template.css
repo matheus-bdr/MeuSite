@@ -12,7 +12,13 @@ a {
     text-decoration: none;
     color: black;
 }
-
+.matheusDaCruz{
+  Font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+}
+.matheusDaCruz:hover{
+  font-size: 40px;
+  transition: 0.7s;
+}
 .p1 {
     font-family: Andale Mono, monospace;
     font-size: 130%;
