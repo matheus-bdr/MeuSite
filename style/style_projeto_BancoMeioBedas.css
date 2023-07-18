@@ -73,6 +73,13 @@ h1 {
   width: 100%;
   
  }
+ .videoPequeno{}
+ .videoGrande{}
+  .divmedia{}
+ .divmedia2{}
+ .h1ferramentas{}
+ .desaparecePcell{}
+ .aparecePcell{}
  @media(max-width:600px){
   .apresentacaoLinhaDoTempo{
     display: none;
@@ -84,12 +91,13 @@ h1 {
   .h1historia{
     display: none;
   }
+  .videoPequeno{
+    height: 400px;
+    width: 200px;
+  }
+  
  }
- .divmedia{}
- .divmedia2{}
- .h1ferramentas{}
- .desaparecePcell{}
- .aparecePcell{}
+
 
  @media(max-width:540px){
   .divmedia{ 
@@ -111,5 +119,10 @@ h1 {
  
    .aparecePcell{
     display: none;
+   }
+   .videoGrande{
+    height: 500px;
+    width: 1000px;
+    padding: 10px;
    }
  }
